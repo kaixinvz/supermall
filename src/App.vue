@@ -1,18 +1,18 @@
 <template>
  <div id="App">
    <router-view></router-view>
-    <main-tab-bar></main-tab-bar>
+    <main-tar-bar></main-tar-bar>
 
  </div>
 </template>
 
 <script>
-import MainTabBar from "components/content/maintarbar/MainTabBar";
+import MainTarBar from "components/content/maintarbar/MainTarBar";
 
 export default {
   name: 'App',
   components: {
-    MainTabBar
+    MainTarBar
   }
 }
 </script>
