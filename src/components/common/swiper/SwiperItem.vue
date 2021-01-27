@@ -1,3 +1,4 @@
+<!--广告图小组件-->
 <template>
   <div class="slide">
     <slot></slot>

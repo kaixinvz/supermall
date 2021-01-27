@@ -1,13 +1,127 @@
 <template>
-    <h2>关于我</h2>
+    <div>
+      <scroll class="content">
+        <ul>
+          <li>商品列别OA1</li>
+          <li>商品列别OA2</li>
+          <li>商品列别OA3</li>
+          <li>商品列别OA4</li>
+          <li>商品列别OA5</li>
+          <li>商品列别OA6</li>
+          <li>商品列别OA7</li>
+          <li>商品列别OA8</li>
+          <li>商品列别OA9</li>
+          <li>商品列别OA10</li>
+          <li>商品列别OA11</li>
+          <li>商品列别OA12</li>
+          <li>商品列别OA13</li>
+          <li>商品列别OA14</li>
+          <li>商品列别OA15</li>
+          <li>商品列别OA16</li>
+          <li>商品列别OA17</li>
+          <li>商品列别OA18</li>
+          <li>商品列别OA19</li>
+          <li>商品列别OA20</li>
+          <li>商品列别OA21</li>
+          <li>商品列别OA22</li>
+          <li>商品列别OA23</li>
+          <li>商品列别OA24</li>
+          <li>商品列别OA25</li>
+          <li>商品列别OA26</li>
+          <li>商品列别OA27</li>
+          <li>商品列别OA28</li>
+          <li>商品列别OA29</li>
+          <li>商品列别OA30</li>
+          <li>商品列别OA31</li>
+          <li>商品列别OA32</li>
+          <li>商品列别OA33</li>
+          <li>商品列别OA34</li>
+          <li>商品列别OA35</li>
+          <li>商品列别OA36</li>
+          <li>商品列别OA37</li>
+          <li>商品列别OA38</li>
+          <li>商品列别OA39</li>
+          <li>商品列别OA40</li>
+          <li>商品列别OA41</li>
+          <li>商品列别OA42</li>
+          <li>商品列别OA43</li>
+          <li>商品列别OA44</li>
+          <li>商品列别OA45</li>
+          <li>商品列别OA46</li>
+          <li>商品列别OA47</li>
+          <li>商品列别OA48</li>
+          <li>商品列别OA49</li>
+          <li>商品列别OA50</li>
+          <li>商品列别OA51</li>
+          <li>商品列别OA52</li>
+          <li>商品列别OA53</li>
+          <li>商品列别OA54</li>
+          <li>商品列别OA55</li>
+          <li>商品列别OA56</li>
+          <li>商品列别OA57</li>
+          <li>商品列别OA58</li>
+          <li>商品列别OA59</li>
+          <li>商品列别OA60</li>
+          <li>商品列别OA61</li>
+          <li>商品列别OA62</li>
+          <li>商品列别OA63</li>
+          <li>商品列别OA64</li>
+          <li>商品列别OA65</li>
+          <li>商品列别OA66</li>
+          <li>商品列别OA67</li>
+          <li>商品列别OA68</li>
+          <li>商品列别OA69</li>
+          <li>商品列别OA70</li>
+          <li>商品列别OA71</li>
+          <li>商品列别OA72</li>
+          <li>商品列别OA73</li>
+          <li>商品列别OA74</li>
+          <li>商品列别OA75</li>
+          <li>商品列别OA76</li>
+          <li>商品列别OA77</li>
+          <li>商品列别OA78</li>
+          <li>商品列别OA79</li>
+          <li>商品列别OA80</li>
+          <li>商品列别OA81</li>
+          <li>商品列别OA82</li>
+          <li>商品列别OA83</li>
+          <li>商品列别OA84</li>
+          <li>商品列别OA85</li>
+          <li>商品列别OA86</li>
+          <li>商品列别OA87</li>
+          <li>商品列别OA88</li>
+          <li>商品列别OA89</li>
+          <li>商品列别OA90</li>
+          <li>商品列别OA91</li>
+          <li>商品列别OA92</li>
+          <li>商品列别OA93</li>
+          <li>商品列别OA94</li>
+          <li>商品列别OA95</li>
+          <li>商品列别OA96</li>
+          <li>商品列别OA97</li>
+          <li>商品列别OA98</li>
+          <li>商品列别OA99</li>
+          <li>商品列别OA100</li>
+        </ul>
+      </scroll>
+
+    </div>
 </template>
 
 <script>
+  import Scroll from 'components/common/scroll/Scroll'
     export default {
-        name: "Me"
+        name: "Me",
+        components:{
+          Scroll
+        }
     }
 </script>
 
 <style scoped>
-
+.content{
+  background-color: red;
+  height:300px;
+  overflow: hidden;
+}
 </style>

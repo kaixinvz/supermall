@@ -1,3 +1,4 @@
+<!--底部整体导航-->
 <template>
   <tar-bar>
     <tar-bar-item path="/home" >

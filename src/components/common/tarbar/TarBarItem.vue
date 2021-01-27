@@ -1,3 +1,4 @@
+<!--底部小整块-->
 <template>
   <div class="tab-bar-item" @click="itemClick">
     <slot v-if="!isActive" name="item-icon"></slot>

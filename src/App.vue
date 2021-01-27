@@ -1,6 +1,9 @@
 <template>
- <div id="App">
-   <router-view></router-view>
+ <div id="App" >
+   <keep-alive exclude="Detail">
+     <router-view></router-view>
+   </keep-alive>
+
     <main-tar-bar></main-tar-bar>
 
  </div>

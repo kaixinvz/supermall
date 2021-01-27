@@ -1,3 +1,4 @@
+<!--底部小组件-->
 <template>
   <div id="tab-bar">
     <slot></slot>
